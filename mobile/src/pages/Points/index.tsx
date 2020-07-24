@@ -16,12 +16,13 @@ interface RouteParams {
 interface Item {
     id: number,
     title: string,
-    image_uri: string
+    image_url: string
 }
 
 interface Point {
     id: number,
     image: string,
+    image_url: string,
     name: string,
     latitude: number,
     longitude: number
@@ -127,7 +128,7 @@ const Points = () => {
                                     }}
                                 >
                                     <View style={styles.mapMarkerContainer} >
-                                        <Image style={styles.mapMarkerImage} source={{uri: point.image}} />
+                                        <Image style={styles.mapMarkerImage} source={{uri: point.image_url}} />
                                         <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                                     </View>
                                 </Marker>
@@ -155,7 +156,7 @@ const Points = () => {
                             onPress={() => handleSelectedItems(item.id)}
                             activeOpacity={0.5}
                         >
-                            <SvgUri width={42} height={42} uri={item.image_uri} />
+                            <SvgUri width={42} height={42} uri={item.image_url} />
                             <Text style={styles.itemTitle}>{item.title}</Text>
                         </TouchableOpacity>
                     ))}
