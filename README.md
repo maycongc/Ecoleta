@@ -1,4 +1,9 @@
-
+<h3 align="center">
+    <img src=".github/logo.png" alt="Logo" width="300px" >
+    <br /><br />
+    <b>♻️ NextLevelWeek 1.0 - Booster♻️</b>  
+    <br>
+</h3>
 
 
 # Índice
@@ -6,7 +11,7 @@
 - [Sobre](#sobre)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Layout](#layout)
-- [Como Usar](#como-usar)
+- [Como Usar](#como-executar)
 - [Como Contribuir](#como-contribuir)
 
 
@@ -49,6 +54,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [React Native](https://reactnative.dev/)
 
 
+<a id="layout"></a>
+
 ## 🎨 Layout
 
 
@@ -69,7 +76,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 </p>
 
 
-<a id="como-usar"></a>
+<a id="como-executar"></a>
 
 ## 🔥 Como executar o projeto
 
@@ -85,7 +92,7 @@ Podemos considerar este projeto como sendo divido em três partes:
 2. Front End (pasta web)
 3. Mobile (pasta mobile)
 
-💡Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
+> 💡 Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
 
 
 ### ✨ Faça um clone:
@@ -142,6 +149,8 @@ $ npm run start
 🚧 Em construção... 🚧
 
 
+<a id="como-contribuir"></a>
+
 ## 😯 Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
@@ -157,5 +166,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 <h4 align="center">
-    Feito com 💜 por Maycon Gorgonha 👋🏽 [Entre em contato!](https://www.linkedin.com/in/maycon-gorgonha/)
+    Feito com 💜 por Maycon Gorgonha 👋🏽 <a href="https://www.linkedin.com/in/maycon-gorgonha/" target="_blank">Entre em contato!</a>
 <h4>
