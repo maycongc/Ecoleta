@@ -115,6 +115,12 @@ $ cd server
 # Instale as dependências
 $ npm install
 
+# Crie as tabelas no banco de dados
+$ npm run knex:migrate
+
+# Popule a tabela de items
+$ npm run knex:seed 
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
@@ -125,11 +131,8 @@ $ npm run dev
 ### 🖼 Rodando a aplicação web (Front End)
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
-
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd nlw1
+$ cd Ecoleta
 
 # Vá para a pasta da aplicação Front End
 $ cd web
